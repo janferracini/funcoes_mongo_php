@@ -21,8 +21,8 @@
             </div>
 
             <div class="form-group">
-                <label for="perco">Preço</label>
-                <input type="number" step="any" name="perco" id="perco" class="form-control" />
+                <label for="preco">Preço</label>
+                <input type="number" step="any" name="preco" id="preco" class="form-control" />
             </div>
 
 

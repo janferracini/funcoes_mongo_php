@@ -16,9 +16,6 @@
                 <textarea row="5" name="descricao" id="descricao" class="form-control"> <?php echo $d->descricao?></textarea>
             </div>
 
-
-
-
             <div class="form-group">
                 <a href="marcas" id="cancelar" class="btn btn-raised btn-danger">Cancelar</a>
                 <button type="submit" class="btn btn-raised btn-success">Salvar</button>
