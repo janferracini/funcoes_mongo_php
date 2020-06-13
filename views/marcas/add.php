@@ -1,5 +1,5 @@
 <div class="container" style="margin-top: 5em;">
-    <h3>Cadastros - Adicionar Nova Marca</h3>
+    <h3>Adicionar Nova Marca</h3>
     <div class="row">
         <form method="POST" action="marcas_save" class="col-lg-10">
 

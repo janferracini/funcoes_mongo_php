@@ -16,7 +16,7 @@
                     <td><?php echo $d->marca ?></td>
                     <td><?php echo $d->descricao ?></td>
                     <td><a href="marcas_edit?id=<?php echo $d->_id ?>" class="bnt">
-                        <img src="assets/svg/editar.svg" style="width: 25px"></a>
+                        <img src="assets/svg/editar.svg" style="width: 20px"></a>
                     </td>
                 </tr>
             <?php } ?>

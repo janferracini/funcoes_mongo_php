@@ -1,9 +1,10 @@
 <?php 
     require_once __DIR__."/../../core/mongo/find.php";
-
-    $id=new \MongoDB\BSON\ObjectID($_GET['id']);
+    // o edit vai buscar os dados para apresentar na hora da edição
     
-    $filter = ['_id'=>$id];
+    $id = new \MongoDB\BSON\ObjectID($_GET['id']); //conversão em BSON p/ mongo 
+    
+    $filter = ['_id'=>$id]; //filtra as marcas pela ID
     $options =[];
     $collection = 'ecommerce.marcas';
 

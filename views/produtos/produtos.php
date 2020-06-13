@@ -18,7 +18,7 @@
                     <td><?php echo $d->marca ?></td>
                     <td><?php echo $d->preco ?></td>
                     <td><a href="produtos_edit?id=<?php echo $d->_id ?>" class="bnt">
-                        <img src="assets/svg/editar.svg" style="width: 15px"></a>
+                        <img src="assets/svg/editar.svg" style="width: 20px"></a>
                     </td>
                 </tr>
             <?php } ?>

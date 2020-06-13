@@ -11,14 +11,14 @@
         </thead>
         <tbody>
 
-            <?php foreach($data as $c ) { ?>
+            <?php foreach($data as $d ) { ?>
                 <tr>
 
-                    <td><?php echo $c->cpf ?></td>
-                    <td><?php echo $c->nome ?></td>
-                    <td><?php echo $c->email ?></td>
-                    <td><a href="editar?id=<?php echo $c->_id ?>" class="bnt">
-                        <img src="assets/svg/editar.svg" style="width: 15px"></a>
+                    <td><?php echo $d->cpf ?></td>
+                    <td><?php echo $d->nome ?></td>
+                    <td><?php echo $d->email ?></td>
+                    <td><a href="usuarios_edit?id=<?php echo $d->_id ?>" class="bnt">
+                        <img src="assets/svg/editar.svg" style="width: 20px"></a>
                     </td>
                 </tr>
             <?php } ?>

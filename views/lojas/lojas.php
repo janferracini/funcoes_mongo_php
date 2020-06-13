@@ -13,8 +13,8 @@
                 <tr>
                     <td><?php echo $d->loja ?></td>
                     <td><?php echo $d->endereco ?></td>
-                    <td><a href="marcas_edit?id=<?php echo $d->_id ?>" class="bnt">
-                        <img src="assets/svg/editar.svg" style="width: 15px"></a>
+                    <td><a href="lojas_edit?id=<?php echo $d->_id ?>" class="bnt">
+                        <img src="assets/svg/editar.svg" style="width: 20px"></a>
                     </td>
                 </tr>
             <?php } ?>

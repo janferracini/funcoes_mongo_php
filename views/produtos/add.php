@@ -1,5 +1,5 @@
 <div class="container" style="margin-top: 5em;">
-    <h3>Cadastros - Adicionar Novo Usuário</h3>
+    <h3>Adicionar Novo Produto</h3>
     <div class="row">
         <form method="POST" action="produtos_save" class="col-lg-10">
 
@@ -11,12 +11,10 @@
             <div class="form-group">
                 <label for="marca">Marca</label>
                 <select name="marca" id="marca" class="form-control">
-
-                    <!-- <option value="0">Marca</option> -->
+                    <option value="0">Marca</option>
                     <?php foreach ($marcas as $m) { ?>
                         <option value="<?php echo $m->_id ?>"><?php echo $m->marca ?></option>
                     <?php } ?>
-
                 </select>
             </div>
 

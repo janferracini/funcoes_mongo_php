@@ -11,4 +11,4 @@
     insert($obj, $collection);
 
     //volta para a página Marcas
-    echo "<script>location.href='produtos'</script>";
+    echo '<script>alert("Registro salvo!");location.href="produtos";</script>';

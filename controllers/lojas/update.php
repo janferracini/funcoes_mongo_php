@@ -10,4 +10,4 @@
 
     update($filter, $obj, $collection);
 
-    echo "<script>location.href='lojas'</script";
+    echo '<script>alert("Loja editada com sucesso.");location.href="lojas";</script';

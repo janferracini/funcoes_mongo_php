@@ -10,4 +10,4 @@
 
     update($filter, $obj, $collection);
 
-    echo "<script>location.href='usuarios'</script";
+    echo '<script>alert("Usuário editado com sucesso.");location.href="usuarios";</script';
